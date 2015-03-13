@@ -56,7 +56,7 @@ body {
   font-size: 100%; }
 
 body {
-  background: #fff;
+  background-image: url(images/fondo1.jpg);
   color: #222;
   padding: 0;
   margin: 0;
@@ -164,7 +164,7 @@ select {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
   width: 100%;
-  float: left; }
+  float: left;}
 
 [class*="column"] + [class*="column"]:last-child {
   float: right; }
@@ -2006,7 +2006,7 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 40.063em) {
   .top-bar {
-    
+    font-family: 'Open Sans Condensed', sans-serif;
     background: #333333;
     overflow: visible; }
     .top-bar:before, .top-bar:after {
@@ -2041,7 +2041,6 @@ meta.foundation-mq-topbar {
     margin-bottom: 0; }
 
   .top-bar-section {
-    font-family: 'Open Sans Condensed', sans-serif;
     transition: none 0 0;
     left: 0 !important; }
     .top-bar-section ul {
@@ -3663,12 +3662,13 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 60%;
+    font-size: 90%;
     color: #6f6f6f;
     line-height: 0; }
 
 h1 {
-  font-size: 2.125rem; }
+  font-size: 2.125rem;
+   }
 
 h2 {
   font-size: 1.6875rem; }
@@ -3680,7 +3680,8 @@ h4 {
   font-size: 1.125rem; }
 
 h5 {
-  font-size: 1.125rem; }
+  font-size: 1.125rem; 
+}
 
 h6 {
   font-size: 1rem; }
@@ -3815,7 +3816,7 @@ blockquote p {
 .vcard {
   display: inline-block;
   margin: 0 0 1.25rem 0;
-  border: 1px solid #DDDDDD;
+  /*border: 1px solid #DDDDDD;*/
   padding: 0.625rem 0.75rem; }
   .vcard li {
     margin: 0;
@@ -3845,7 +3846,7 @@ blockquote p {
   h2 {
     font-size: 2.3125rem;
     font-family: 'Open Sans Condensed', sans-serif;
-     }
+    font-weight: bold; }
 
   h3 {
     font-family:'Open Sans Condensed', sans-serif;
@@ -6210,3 +6211,4 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
+

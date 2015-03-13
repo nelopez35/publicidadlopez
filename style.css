@@ -1,0 +1,33 @@
+/**{
+	background-color: #b6b6b6;
+}*/
+body{
+    background-color: #CCCCCC;
+}
+.Footer{
+
+	font-size: 13px;
+	
+}
+
+.p_index{
+
+	font-size: 20px;
+}
+.slider{
+	background-color: white;
+}
+.panel_principal{
+
+	background-color: red;
+}
+
+footer{
+	color:white;
+	background: #333333;
+}
+.line{
+
+	border: 1px solid white;
+	padding: 16px;
+}

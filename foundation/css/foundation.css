@@ -56,7 +56,7 @@ body {
   font-size: 100%; }
 
 body {
-  background-image: url("C:/xampp/htdocs/Publicidad Lopez/foundation/img/diagonal_waves.png");
+ background-image: url("../../images/4-Brown-Paper-Textures03.jpg");
   color: #222;
   padding: 0;
   margin: 0;
@@ -1690,7 +1690,7 @@ meta.foundation-mq-topbar {
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
   width: 100%;
-  background: #333333; }
+  background-color: transparent !important; }
   .contain-to-grid .top-bar {
     margin-bottom: 0; }
 
@@ -1718,7 +1718,7 @@ meta.foundation-mq-topbar {
   height: 2.8125rem;
   line-height: 2.8125rem;
   position: relative;
-  background: #333333;
+  background-color: transparent !important;
   margin-bottom: 0; }
   .top-bar ul {
     margin-bottom: 0;
@@ -1796,7 +1796,7 @@ meta.foundation-mq-topbar {
           box-shadow: 0 0 0 1px "", 0 7px 0 1px "", 0 14px 0 1px ""; }
   .top-bar.expanded {
     height: auto;
-    background: transparent; }
+     }
     .top-bar.expanded .title-area {
       background: #333333; }
     .top-bar.expanded .toggle-topbar a {
@@ -1808,24 +1808,25 @@ meta.foundation-mq-topbar {
   left: 0;
   position: relative;
   width: auto;
-  transition: left 300ms ease-out; }
+  transition: left 300ms ease-out;
+}
   .top-bar-section ul {
     padding: 0;
     width: 100%;
     height: auto;
     display: block;
     font-size: 16px;
-    margin: 0; }
+    margin: 0; 
+  }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
     border-top: solid 1px #1a1a1a;
     clear: both;
     height: 1px;
     width: 100%; }
-  .top-bar-section ul li {
-    background: #333333; }
 
     .top-bar-section ul li > a {
+      background-color: transparent !important;
       display: block;
       width: 100%;
       color: #FFFFFF;
@@ -1837,7 +1838,6 @@ meta.foundation-mq-topbar {
       text-transform: none;
       margin:0 20px 0 20px; }
       .top-bar-section ul li > a:hover{
-        background-color: red;
       }
       .top-bar-section ul li > a.button {
         font-size: 0.8125rem;
@@ -3693,7 +3693,7 @@ h6 {
 
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: white;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem; }
@@ -3844,19 +3844,25 @@ blockquote p {
     line-height: 1.4; }
 
   h1 {
-    font-size: 4rem;
+    font-size: 8rem;
     font-family:'Open Sans Condensed', sans-serif;
-    font-weight: bold; }
+    font-weight: bold;
+    color:white; }
 
   h2 {
     font-size: 2.3125rem;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: bold; }
+    font-weight: bold;
+    color:white; }
 
   h3 {
+
     font-family:'Open Sans Condensed', sans-serif;
     font-weight: bold;
-    font-size: 1.6875rem; }
+    font-size: 1.6875rem;
+    color:white;
+
+     }
 
   h4 {
     font-size: 1.4375rem; }

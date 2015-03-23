@@ -19,7 +19,7 @@ body{
 }
 .panel_principal{
 
-	background-color: red;
+
 }
 
 footer{
@@ -27,9 +27,13 @@ footer{
 	background: #333333;
 }
 .line{
-
+color:#e6e6e6;
 }
 .galeria{
 
 	margin-top: 20px;
+}
+ul li a:hover{
+
+	background-color:  blue !important;
 }
